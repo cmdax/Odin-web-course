@@ -1,0 +1,68 @@
+html {
+  background-color: bisque;
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: orangered;
+}
+
+a.home-link,
+a:visited.home-link {
+  color: black;
+}
+
+a:visited {
+  color: orangered;
+}
+
+.nav-bar {
+  background-color: rgb(246, 200, 143);
+  padding: 0.5em 1em;
+}
+
+.home-link {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  color: orangered;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-wrapper {
+  max-width: 780px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: auto;
+}
+
+ul {
+  margin: auto;
+}
+
+p,
+ul,
+il,
+img {
+  margin-bottom: 3em;
+}
