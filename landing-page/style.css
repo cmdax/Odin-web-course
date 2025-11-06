@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --dark-bg-color: #1F2936;
+  --hero-main-text-font-size: 48px;
+  --text-dark-bg-color: #F9FAF8;
+  --text-dark-bg-secondary-color: #E5E7EB;
+  --hero-main-text-weight: 900;
+  --hero-secondary-text-header-link-font-size: 18px;
+  --hero-logo-text-font-size: 24px;
+
+  --button-bg-color: #3882F6;
+  --information-header-text-font-size: 36px;
+  --text-light-bg-color: #1F2937;
+  --information-header-text-weighta: 900;
+
+  --quote-section-bg-color: #E5E7EB;
+  --quote-text-font-size: 36px;
+  --quote-text-color: #1F2937;
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .header-container {
+    background-color: var(--dark-bg-color);
+    color: var(--text-dark-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 900px;
+  }
+
+  .header-links-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header-logo {
+    font-size: var(--hero-logo-text-font-size);
+  }
