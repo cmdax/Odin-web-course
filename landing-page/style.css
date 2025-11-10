@@ -222,3 +222,12 @@ ul {
 .cta-button {
   border: 4px solid var(--light-bg-color);
 }
+
+.footer-container {
+  background-color: var(--dark-bg-color);
+  color: var(--text-dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
