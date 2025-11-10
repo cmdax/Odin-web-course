@@ -17,6 +17,7 @@
   --quote-section-bg-color: #E5E7EB;
   --quote-text-font-size: 36px;
   --quote-text-color: #1F2937;
+  --quote-text-weight: 300;
 }
 
 * {
@@ -167,4 +168,30 @@ ul {
   max-width: 150px;
   flex-grow: 0;
   color: var(--text-light-bg-secondary-color);
+}
+
+.third-section-container {
+  background-color: var(--quote-section-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0px;
+}
+
+.third-section {
+  max-width: 830px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
+
+.quote {
+  font-size: var(--quote-text-font-size);
+  color: var(--quote-text-color);
+  font-weight: var(--quote-text-weight);
+}
+
+.quote-author {
+  font-size: 24px;
+  align-self: flex-end;
 }
